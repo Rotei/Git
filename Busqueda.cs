@@ -7,7 +7,7 @@ namespace Parte_Git
     /*Búsqueda parcial a partir de una letra o subconjunto de letras (en el caso de encontrar ese fichero deberá mostrar todos los datos que le pertenecen*/
     class Busqueda
     {
-        //int contador = 0; (fuera del menú)
+        //int contadorPalabra = 0; (fuera del menú)
 
         /*string letra = Console.ReadLine();
         Console.WriteLine("Escribe una letra : ");
