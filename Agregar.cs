@@ -6,7 +6,8 @@ namespace Grupo_9
 {
    public class Agregar
     {
-       
+       public void Lanzar()
+        {
             if (contador < 5)
             {
                 Console.WriteLine("Escribe el título del videojuego");
@@ -44,6 +45,8 @@ namespace Grupo_9
             {
                 Console.WriteLine("No puedes añadir más juegos");
             }
-        
-   }
+
+        }
+
+    }
 }

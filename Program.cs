@@ -29,7 +29,7 @@ namespace Grupo_9
         }
         static void Main(string[] args)
         {
-            int contador = 0;
+            public int contador = 0;
 
             string palabra;
             Juego[] arrjuegos = new Juego[5];
@@ -53,22 +53,25 @@ namespace Grupo_9
                 //AÑADIR DATO
                 case 1:
                     {
-                        Agregar();
+                        Lanzar();
                         break;
                     }
                 //MOSTRAR DATOS
                 case 2:
                     {
+                        Lanzar();
                         break;
                     }
                 //MOSTRAR TAMAÑO
                 case 3:
                     {
+                        Lanzar();
                         break;
                     }
                 //BUSQUEDA PARCIAL
                 case 4:
                     {
+                        Lanzar();
                         break;
                     }
                 //SALIR
